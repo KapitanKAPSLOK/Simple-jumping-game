@@ -1,11 +1,9 @@
 # Simple jumping game
-To play the game clone the repo and then build the code with
+You can play the game here: https://kapitankapslok.github.io/Simple-jumping-game/
+
+If you want to run it locally clone the repo and then build the code with
 ```
 npm install
 npm run build
 ```
-and start node server
-```
-npm run start
-```
-With server running game is accessible through browser at http://localhost:3000/.
+Game is ready just open *public/index.html* in the browser and play :).
