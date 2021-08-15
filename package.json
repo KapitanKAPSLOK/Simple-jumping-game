@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
-    "start": "npx node public/app.js"
+    "start": "npx node public/app.js",
+    "lint": "npx eslint src/*.ts"
   },
   "author": "Mateusz Turowski",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.0",
+    "prettier": "^2.3.2"
   }
 }
