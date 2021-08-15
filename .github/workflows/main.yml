@@ -33,4 +33,8 @@ jobs:
           
       - name: Deploy github pages
         uses: crazy-max/ghaction-github-pages@v2.5.0
-
+        with:
+            # Git domain (default github.com)
+            domain: kapitankapslok.github.io # optional, default is github.com
+            # Build directory to deploy
+            build_dir: public
