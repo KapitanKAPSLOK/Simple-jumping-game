@@ -2,12 +2,10 @@
   "name": "simple_jumping_game",
   "version": "0.1.0",
   "description": "",
-  "type": "module",
-  "main": "public/app.js",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc",
-    "start": "npx node public/app.js",
+    "build": "npx tsc; npx webpack",
     "lint": "npx eslint src/*.ts"
   },
   "author": "Mateusz Turowski",
@@ -28,6 +26,8 @@
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
   }
 }
