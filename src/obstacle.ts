@@ -1,4 +1,4 @@
-import MovingDiv from './moving_div.js';
+import MovingDiv from 'moving_div.js';
 
 export default class Obstacle extends MovingDiv {
   constructor(width:number, height:number, speedXPxPerSec: number, speedYPxPerSec: number) {

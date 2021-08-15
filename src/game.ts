@@ -1,6 +1,6 @@
-import Timer from './timer.js';
-import Player from './player.js';
-import Obstacle from './obstacle.js';
+import Timer from 'timer';
+import Player from 'player';
+import Obstacle from 'obstacle';
 
 /*
   Class with main logic of the game.

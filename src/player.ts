@@ -1,4 +1,4 @@
-import MovingDiv from './moving_div.js';
+import MovingDiv from 'moving_div';
 
 export default class Player extends MovingDiv {
   // Initial jump velocity.
